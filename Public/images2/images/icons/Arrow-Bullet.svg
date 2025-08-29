@@ -1,0 +1,21 @@
+<svg viewBox="0 0 160.432 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160.432129" height="24.000000" fill="none" customFrame="#000000">
+	<rect id="Arrow-Bullet" width="160.432144" height="24.000002" x="0.000000" y="0.000000" />
+	<g id="bullets">
+		<ellipse id="Ellipse 54" rx="1.782579" ry="2.000000" cx="40.9993744" cy="12" fill="rgb(17,33,55)" />
+		<ellipse id="Ellipse 55" rx="1.782579" ry="2.000000" cx="60.6077728" cy="12" fill="rgb(17,33,55)" />
+		<ellipse id="Ellipse 59" rx="7.912895" ry="9.000000" cx="80.2161179" cy="12" stroke="rgb(17,33,55)" stroke-width="2" />
+		<ellipse id="Ellipse 56" rx="1.782578" ry="2.000000" cx="80.2161713" cy="12" fill="rgb(17,33,55)" />
+		<ellipse id="Ellipse 57" rx="1.782581" ry="2.000000" cx="99.8245697" cy="12" fill="rgb(17,33,55)" />
+		<ellipse id="Ellipse 58" rx="1.782581" ry="2.000000" cx="119.432968" cy="12" fill="rgb(17,33,55)" />
+	</g>
+	<g id="arrow-right">
+		<path id="Vector" d="M151.902 5.92969L157.312 11.9997L151.902 18.0697" fill-rule="nonzero" stroke="rgb(17,33,55)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+		<path id="Vector" d="M142.161 12L157.161 12" stroke="rgb(17,33,55)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+		<path id="Vector" d="M21.3909 0L0 0L0 24L21.3909 24L21.3909 0ZM1 23L1 1L20.3909 1L20.3909 23L1 23Z" opacity="0" fill="rgb(17,33,55)" fill-rule="evenodd" transform="matrix(-1,-1.37402e-16,1.09151e-16,-1,160.432,24)" />
+	</g>
+	<g id="arrow-right">
+		<path id="Vector" d="M0 0L5.41013 6.07L0 12.14" fill-rule="nonzero" stroke="rgb(17,33,55)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" transform="matrix(-1,-1.10049e-07,6.94484e-08,-1,8.52979,18.0703)" />
+		<path id="Vector" d="M0 0L15.0004 0" stroke="rgb(17,33,55)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" transform="matrix(-1,-1.10049e-07,6.94484e-08,-1,18.2715,12)" />
+		<path id="Vector" d="M21.391 0L0 0L0 24L21.391 24L21.391 0ZM1 23L1 1L20.391 1L20.391 23L1 23Z" opacity="0" fill="rgb(17,33,55)" fill-rule="evenodd" />
+	</g>
+</svg>
