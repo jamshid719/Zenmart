@@ -36,7 +36,7 @@
 .container .category-top a {
   margin-left: 30px;
   color: rgba(4, 30, 66, 1);
-  ffont-family: var(--font);
+  font-family: var(--font);
   font-style: normal;
   font-size: 15px;
   font-weight: 500;
@@ -112,10 +112,13 @@
 }
 
 .container .next-prew-box img {
+  display: none;
   position: absolute;
   top: 50%;
   cursor: pointer;
 }
+
+/* SWIPER */
 
 /* PRODUCT-BOX */
 
@@ -578,8 +581,10 @@
 }
 
 .selling-product-frame .product-wrapper .product-boxes {
+  /* margin: 0 5px; */
   position: relative;
   width: 1224px;
+
   height: 452px;
 
   display: flex;
