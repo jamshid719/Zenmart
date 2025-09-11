@@ -1,11 +1,13 @@
 :root {
   --font: "Jost";
+  --border: #eaeaea;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
+  margin-bottom: 50px;
 }
 
 a {
@@ -324,6 +326,59 @@ p {
   line-height: 22px;
   text-align: left;
   color: #626974;
+}
+
+/* PAGINATION */
+
+.container .pagination-box {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .pagination-box .pagination-main {
+  width: auto;
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container .pagination-main .pagination-dot {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.pagination-main img {
+  cursor: pointer;
+}
+
+.container .pagination-dot .dot {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+}
+
+.container .pagination-dot .dot.active {
+  border: 2px solid rgba(17, 33, 55, 1);
+}
+
+.container .pagination-dot .dot div {
+  width: 4px;
+  height: 4px;
+  background-color: #112137;
+  border-radius: 50%;
 }
 
 /* FOOTER */
