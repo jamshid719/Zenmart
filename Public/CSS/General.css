@@ -402,7 +402,7 @@ p {
   text-align: left;
 }
 
-.container {
+.footer-frame .container {
   flex-direction: column;
 }
 
