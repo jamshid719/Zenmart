@@ -1,0 +1,155 @@
+.cart-page {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title-frame */
+
+.title-frame {
+  margin-top: 60px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-frame .container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h2 {
+  margin-bottom: 60px;
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+
+.container p {
+  margin-bottom: 26px;
+  color: rgba(0, 0, 0, 1);
+
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: center;
+}
+
+.container .rectangle-star {
+  width: 425px;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangle-star .yellow-line {
+  width: 241px;
+  height: 6px;
+  border-radius: 6px;
+  background: rgba(245, 195, 75, 1);
+}
+
+.rectangle-star .star {
+  width: 37px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+  border: 2px solid rgba(245, 195, 75, 1);
+  border-radius: 40px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.rectangle-star .gray-line {
+  width: 165px;
+  height: 6px;
+  border-radius: 6px;
+  background: var(--border);
+}
+
+/* Cart-info-frame */
+
+.cart-info-frame {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+.cart-info-frame .container {
+  flex-direction: row;
+}
+
+.container .cart-info-box {
+  width: 872px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-info-box .cart-info-top {
+  width: 100%;
+  height: 619px;
+}
+
+.cart-info-top table {
+  width: 100%;
+  height: 619px;
+  border: 1px solid var(--border);
+}
+
+.cart-info-top table thead {
+  background-color: var(--border);
+}
+
+.cart-info-top table tbody tr .td-1 {
+  padding: 15px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-info-top table tbody tr .product-row-info {
+  margin-left: 37px;
+  width: 192px;
+  height: 122px;
+  display: flex;
+  flex-direction: column;
+}
+
+tbody tr .product-row-info span,
+tbody tr .product-row-info strong {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+
+table tbody tr td {
+  text-align: center;
+}
