@@ -47,6 +47,15 @@
   text-align: left;
 }
 
+/* HORIZONTAL-LINE */
+
+.container .horizontal-line {
+  margin: 10px 0;
+  width: 366px;
+  height: 1px;
+  background-color: var(--border);
+}
+
 .container .billing-details-box {
   width: 858px;
   height: auto;
@@ -124,4 +133,119 @@
   border: 1px solid rgba(234, 234, 234, 1);
   border-radius: 6px;
   background: rgba(255, 255, 255, 1);
+}
+
+.container .order-wrapper {
+  margin-left: 40px;
+  width: 422px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.order-wrapper .order-box {
+  padding: 30px 28px;
+  width: 422px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(234, 234, 234, 1);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.order-box h4 {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 100%;
+  text-align: left;
+}
+
+.order-box .product-order {
+  margin-bottom: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.order-box .product-order p,
+.order-box .product-order span {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+
+.order-box .total-shipping-box {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.order-box .total-shipping-box p,
+.order-box .total-shipping-box span {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.order-wrapper .checkbox {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.order-wrapper .checkbox input {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.order-wrapper .checkbox label {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+
+.order-wrapper a {
+  margin-top: 30px;
+  width: 422px;
+  height: 52px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 6px;
+  background: rgba(245, 195, 75, 1);
+
+  color: rgba(4, 30, 66, 1);
+  font-family: var(--font);
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
 }
