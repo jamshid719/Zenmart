@@ -1,0 +1,58 @@
+.about-page {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-page .about-frame {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+.about-frame .container {
+  flex-direction: column;
+}
+
+.container .about-img-wrapper {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.about-img-wrapper .img-box {
+  width: 50%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.img-box .left-img-box {
+  width: 306px;
+  height: 470px;
+}
+
+.img-box .right-img-box {
+  margin-left: 18px;
+  width: 345px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img-box img:hover {
+  transform: scale(1.1, 1.1);
+  cursor: pointer;
+}
