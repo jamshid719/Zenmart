@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="../Public/CSS/General.css" />
+    <link rel="stylesheet" href="../Public/CSS/Received.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar-frame">
+      <div class="container">
+        <div class="navbar-top">
+          <a href="">
+            <img src="../Public/Images/logo.png" alt="there was a logo" />
+          </a>
+          <div class="nav-search-frame">
+            <div class="search-box">
+              <div class="category-list">
+                <select name="" id="">
+                  <option value="" selected>All categories</option>
+                  <option value="">Computer</option>
+                </select>
+              </div>
+              <input type="search" class="" placeholder="Search Products..." />
+            </div>
+            <div class="search-icon-box">
+              <img
+                src="../Public/Images/search 1.svg"
+                alt="there was an icon"
+              />
+            </div>
+          </div>
+          <div class="nav-top-menu">
+            <a href="../Order/Cart.html">
+              <div class="top-menu-box">
+                <div class="box-icon-box">
+                  <img
+                    src="../Public/Images/heart 1.svg"
+                    alt="there was an icon"
+                  />
+                </div>
+                <div class="box-info-box">
+                  <span>Wishlist</span>
+                  <strong>My Items</strong>
+                </div>
+              </div> </a
+            ><a href="../Other/Login.html">
+              <div class="top-menu-box">
+                <div class="box-icon-box">
+                  <img
+                    src="../Public/Images/user_nav.svg"
+                    alt="there was an icon"
+                  />
+                </div>
+                <div class="box-info-box">
+                  <span>Sign In</span>
+                  <strong>Account</strong>
+                </div>
+              </div> </a
+            ><a href="../Order/Cart.html">
+              <div class="top-menu-box">
+                <div class="box-icon-box">
+                  <div class="basket-count">2</div>
+                  <img
+                    src="../Public/Images/shopping-cart 1.svg"
+                    alt="there was an icon"
+                  />
+                </div>
+                <div class="box-info-box">
+                  <span>$200.99</span>
+                  <strong>Total</strong>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="navbar-bott">
+          <div class="navbar-bott-menu-box">
+            <div class="browse-box">
+              <img src="../Public/Images/browse-icon (2).svg" alt="" />
+              <span>Browse categories</span>
+            </div>
+            <div class="navbar-route-menu">
+              <div class="router-menu">
+                <a href="../Main.html">Home</a>
+              </div>
+              <div class="router-menu">
+                <a href="../Product/all.html">Shop</a>
+              </div>
+              <div class="router-menu">
+                <a href="../Order/Cart.html" class="active">Orders</a>
+              </div>
+              <div class="router-menu">
+                <a href="../Other/About.html">About</a>
+              </div>
+              <div class="router-menu">
+                <a href="../Other/Contact.html">Contact</a>
+              </div>
+            </div>
+            <div class="sorting-menu">
+              <span>Deal of the Day</span>
+              <span>Hot Deals</span>
+              <span>Best Sellers</span>
+              <span>New Arrivals</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="received-page">
+      <!-- Router-frame -->
+
+      <div class="router-frame">
+        <span>Home</span>
+        <span class="drop">/</span>
+        <span>Electronics</span>
+        <span class="drop">/</span>
+        <span>Computers</span>
+        <span class="drop">/</span>
+        <span class="active" disabled>Desktop Computers</span>
+      </div>
+
+      <div class="received-frame">
+        <div class="container">
+          <div class="order-title">
+            <img src="../Public/images2/images/received/icons.svg" alt="" />
+            <h3>Your order is completed!</h3>
+            <small>Thank you. Your order has been received.</small>
+          </div>
+          <div class="order-info-box">
+            <div class="order-info">
+              <span>Order Number</span>
+              <strong style="font-weight: 500">039422</strong>
+            </div>
+            <div class="order-info">
+              <span>Date</span>
+              <strong style="font-weight: 500">27/04/2022</strong>
+            </div>
+            <div class="order-info">
+              <span>Total</span>
+              <strong style="font-weight: 500">$2984.10</strong>
+            </div>
+            <div class="order-info">
+              <span>Payment Method</span>
+              <strong style="font-weight: 500">Direct Bank Transfer</strong>
+            </div>
+          </div>
+          <div class="order-details-box">
+            <h3>Order Details</h3>
+            <div class="product-order">
+              <p style="font-weight: bold">Product</p>
+              <span style="font-weight: bold">Subtotal</span>
+            </div>
+            <div class="horizontal-line" style="width: 1172px"></div>
+            <div class="product-order">
+              <p>Apple MacBook Pro with Apple M1 Chip x 2</p>
+              <span>$229.99</span>
+            </div>
+            <div class="product-order">
+              <p>Apple MacBook Pro with Apple M1 Chip x 2</p>
+              <span>$229.99</span>
+            </div>
+            <div class="horizontal-line" style="width: 1172px"></div>
+            <div class="product-order">
+              <p style="font-weight: bold">Sub Total</p>
+              <span style="font-weight: bold">$89.90</span>
+            </div>
+            <div class="horizontal-line" style="width: 1172px"></div>
+            <div class="product-order">
+              <p style="font-weight: bold">Shipping</p>
+              <span>Free shipping</span>
+            </div>
+            <div class="horizontal-line" style="width: 1172px"></div>
+            <div class="product-order">
+              <p style="font-weight: bold">VAT</p>
+              <span style="font-weight: bold">$19</span>
+            </div>
+            <div class="horizontal-line" style="width: 1172px"></div>
+            <div class="product-order">
+              <p style="font-weight: bold">Payment Method</p>
+              <span style="font-weight: bold">Direct bank transfer</span>
+            </div>
+            <div class="horizontal-line" style="width: 1172px"></div>
+            <div class="product-order">
+              <p style="font-weight: bold">Total</p>
+              <span style="font-weight: bold">$1319</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="footer-frame" style="margin-top: 75px">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-contact-box">
+            <div class="footer-spec-title">Contact Us</div>
+            <div class="footer-contact-main">
+              <img src="../Public/images2/images/icons/phone-call.svg" alt="" />
+              <div>
+                <strong>Monday-Friday: 08am-9pm</strong>
+                <span>+(1) 123 456 7890</span>
+              </div>
+            </div>
+            <div class="footer-contact-main">
+              <img src="../Public/images2/images/icons/email.svg" alt="" />
+              <div>
+                <strong>Need help with your order?</strong>
+                <span>support@zenmart.com</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer-supservices-box">
+            <div class="footer-spec-title">Customer Support</div>
+            <div class="footer-supservices-main">
+              <a href="../Other/Contact.html">Contact Us</a>
+              <a href="">Help Centre</a>
+              <a href="">Returns & Exchanges</a>
+              <a href="">Best Buy Financing</a>
+              <a href="">Buy Gift Card</a>
+            </div>
+          </div>
+          <div class="footer-supservices-box">
+            <div class="footer-spec-title">Services</div>
+            <div class="footer-supservices-main">
+              <a href="">Geek Squad</a>
+              <a href="">In-Home Advisor</a>
+              <a href="">Trade-In Program</a>
+              <a href="">Electronics Recycling</a>
+              <a href="">Best Buy Health</a>
+            </div>
+          </div>
+          <div class="footer-media-box">
+            <div class="footer-follow-box">
+              <div class="footer-spec-title">Follow us</div>
+              <div class="footer-social-box">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+            </div>
+            <div class="footer-mobile-box">
+              <div class="footer-spec-title">Mobile Apps</div>
+              <div class="mobile-app-box">
+                <img
+                  src="../Public/images2/images/icons/apple_icon.png"
+                  alt=""
+                />
+                <span>iOS App</span>
+              </div>
+              <div class="mobile-app-box">
+                <img
+                  src="../Public/images2/images/icons/android_icon.png"
+                  alt=""
+                />
+                <span>Android App</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer-accept-box">
+            <div class="footer-spec-title">We accept</div>
+            <div class="payment-cards">
+              <img src="../Public/images2/images/icons/visa.png" alt="" />
+              <img
+                src="../Public/images2/images/icons/master_card.png"
+                alt=""
+              />
+              <img src="../Public/images2/images/icons/apple_pay.png" alt="" />
+              <img src="../Public/images2/images/icons/dicvover.png" alt="" />
+              <img src="../Public/images2/images/icons/paypal.png" alt="" />
+              <img src="../Public/images2/images/icons/amex.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-bottom-main">
+            <div class="footer-bottom-left">
+              <span>© 2022 Zenmart. All Rights Reserved</span>
+              <span>Privacy · Terms · Sitemap</span>
+            </div>
+            <div class="footer-bottom-right">
+              <div class="footer-select-box">
+                <span>Currency</span>
+                <select name="currency" id="">
+                  <option value="USA">USD</option>
+                  <option value="Korean">WON</option>
+                  <option value="Russian">RUB</option>
+                </select>
+              </div>
+              <div class="footer-select-box">
+                <span>Language</span>
+                <select name="language" id="">
+                  <option value="USA">English</option>
+                  <option value="Korean">Korean</option>
+                  <option value="Russian">Russian</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

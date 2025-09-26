@@ -1,0 +1,149 @@
+.received-page {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* horizontal-line */
+
+.container .horizontal-line {
+  margin: 10px 0;
+  width: 366px;
+  height: 1px;
+  background-color: var(--border);
+}
+
+/* received-frame */
+
+.received-page .received-frame {
+  margin-top: 60px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+.received-frame .container {
+  flex-direction: column;
+}
+
+.container .order-title {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-title img {
+  width: 80px;
+  height: 80px;
+}
+
+.order-title h3 {
+  margin-top: 18px;
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.order-title small {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.container .order-info-box {
+  margin-top: 40px;
+  width: 100%;
+  height: 132px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  box-sizing: border-box;
+  border: 1px dashed rgba(98, 105, 116, 1);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.order-info-box .order-info {
+  width: auto;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.order-info-box .order-info span,
+.order-info-box .order-info strong {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+
+.container .order-details-box {
+  margin-top: 30px;
+  padding: 35px 76px;
+
+  width: 100%;
+  height: 511px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(234, 234, 234, 1);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.order-details-box h3 {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 100%;
+  text-align: left;
+}
+
+.order-details-box .product-order {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.order-details-box .product-order p,
+.order-details-box .product-order span {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}

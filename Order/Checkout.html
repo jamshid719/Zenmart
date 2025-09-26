@@ -140,139 +140,141 @@
         <span class="drop">/</span>
         <span class="active" disabled>Desktop Computers</span>
       </div>
-    </div>
 
-    <div class="checkout-frame">
       <div class="title-checkout">
         <h3>Checkout</h3>
       </div>
 
-      <div class="container">
-        <div class="billing-details-box">
-          <span>Billing details</span>
-          <div class="double-input">
-            <label for="firstname"
-              >First name * <br /><input
-                type="text"
-                name="firstname"
-                id="firstname"
-            /></label>
+      <!--checkout-frame  -->
 
-            <label for="lastname"
-              >Last name * <br /><input
-                type="text"
-                name="lastname"
-                id="lastname"
-            /></label>
-          </div>
-          <div class="single-input">
-            <label for="company"
-              >Company name <br /><input
-                type="text"
-                name="company"
-                id="company"
-            /></label>
-          </div>
-          <div class="single-select">
-            <label for="country"
-              >Country / Region * <br />
-              <select name="country" id="country">
-                <option value="select">Select</option>
-                <option value="usa">USA</option>
-                <option value="uz">Uzbekistan</option>
-                <option value="kor">Korea</option>
-              </select></label
-            >
-          </div>
-          <div class="single-input">
-            <label for="address"
-              >Street Adress * <br /><input
-                type="text"
-                name="address"
-                id="address"
-            /></label>
-          </div>
-          <div class="single-input">
-            <label for="city"
-              >Town / City *<br /><input type="text" name="city" id="city"
-            /></label>
-          </div>
-          <div class="single-select">
-            <label for="state"
-              >State * <br />
-              <select name="state" id="state">
-                <option value="select">Select</option>
-                <option value="usa">USA</option>
-                <option value="uz">Uzbekistan</option>
-                <option value="kor">Korea</option>
-              </select></label
-            >
-          </div>
-          <div class="single-input">
-            <label for="zip"
-              >ZIP Code *<br /><input type="number" name="zip" id="zip"
-            /></label>
-          </div>
-          <div class="double-input">
-            <label for="phone"
-              >Phone * <br /><input type="number" name="phone" id="phone"
-            /></label>
+      <div class="checkout-frame">
+        <div class="container">
+          <div class="billing-details-box">
+            <span>Billing details</span>
+            <div class="double-input">
+              <label for="firstname"
+                >First name * <br /><input
+                  type="text"
+                  name="firstname"
+                  id="firstname"
+              /></label>
 
-            <label for="email"
-              >E-mail address * <br /><input
-                type="email"
-                name="email"
-                id="email"
-            /></label>
+              <label for="lastname"
+                >Last name * <br /><input
+                  type="text"
+                  name="lastname"
+                  id="lastname"
+              /></label>
+            </div>
+            <div class="single-input">
+              <label for="company"
+                >Company name <br /><input
+                  type="text"
+                  name="company"
+                  id="company"
+              /></label>
+            </div>
+            <div class="single-select">
+              <label for="country"
+                >Country / Region * <br />
+                <select name="country" id="country">
+                  <option value="select">Select</option>
+                  <option value="usa">USA</option>
+                  <option value="uz">Uzbekistan</option>
+                  <option value="kor">Korea</option>
+                </select></label
+              >
+            </div>
+            <div class="single-input">
+              <label for="address"
+                >Street Adress * <br /><input
+                  type="text"
+                  name="address"
+                  id="address"
+              /></label>
+            </div>
+            <div class="single-input">
+              <label for="city"
+                >Town / City *<br /><input type="text" name="city" id="city"
+              /></label>
+            </div>
+            <div class="single-select">
+              <label for="state"
+                >State * <br />
+                <select name="state" id="state">
+                  <option value="select">Select</option>
+                  <option value="usa">USA</option>
+                  <option value="uz">Uzbekistan</option>
+                  <option value="kor">Korea</option>
+                </select></label
+              >
+            </div>
+            <div class="single-input">
+              <label for="zip"
+                >ZIP Code *<br /><input type="number" name="zip" id="zip"
+              /></label>
+            </div>
+            <div class="double-input">
+              <label for="phone"
+                >Phone * <br /><input type="number" name="phone" id="phone"
+              /></label>
+
+              <label for="email"
+                >E-mail address * <br /><input
+                  type="email"
+                  name="email"
+                  id="email"
+              /></label>
+            </div>
+            <span style="margin-top: 60px">Shipping details</span>
+            <div class="single-textarea" style="margin-top: 20px">
+              <label for="order"
+                >Order notes (optional) <br />
+                <textarea
+                  name="order"
+                  id="order"
+                  placeholder="Order Notes"
+                ></textarea>
+              </label>
+            </div>
           </div>
-          <span style="margin-top: 60px">Shipping details</span>
-          <div class="single-textarea" style="margin-top: 20px">
-            <label for="order"
-              >Order notes (optional) <br />
-              <textarea
-                name="order"
-                id="order"
-                placeholder="Order Notes"
-              ></textarea>
-            </label>
+          <div class="order-wrapper">
+            <div class="order-box">
+              <h4>Your Order</h4>
+              <div class="product-order">
+                <p>Apple MacBook Pro with Apple M1 Chip x 2</p>
+                <span>$229.99</span>
+              </div>
+              <div class="product-order">
+                <p>Apple MacBook Pro with Apple M1 Chip x 2</p>
+                <span>$229.99</span>
+              </div>
+              <div class="horizontal-line"></div>
+              <div class="total-shipping-box">
+                <p>Sub Total</p>
+                <span>$854.98</span>
+              </div>
+              <div class="horizontal-line"></div>
+              <div class="total-shipping-box">
+                <p>Shipping</p>
+                <span>$20</span>
+              </div>
+              <div class="horizontal-line"></div>
+              <div class="total-shipping-box">
+                <p>Total</p>
+                <span>$225.98</span>
+              </div>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" name="personalData" id="personalData" />
+              <label for="personalData"
+                >Your personal data will be used to process your order, support
+                your experience throughout this website, and for other purposes
+                described in our privacy policy.</label
+              >
+            </div>
+            <a href="../Order/Received.html">Place Order</a>
           </div>
-        </div>
-        <div class="order-wrapper">
-          <div class="order-box">
-            <h4>Your Order</h4>
-            <div class="product-order">
-              <p>Apple MacBook Pro with Apple M1 Chip x 2</p>
-              <span>$229.99</span>
-            </div>
-            <div class="product-order">
-              <p>Apple MacBook Pro with Apple M1 Chip x 2</p>
-              <span>$229.99</span>
-            </div>
-            <div class="horizontal-line"></div>
-            <div class="total-shipping-box">
-              <p>Sub Total</p>
-              <span>$854.98</span>
-            </div>
-            <div class="horizontal-line"></div>
-            <div class="total-shipping-box">
-              <p>Shipping</p>
-              <span>$20</span>
-            </div>
-            <div class="horizontal-line"></div>
-            <div class="total-shipping-box">
-              <p>Total</p>
-              <span>$225.98</span>
-            </div>
-          </div>
-          <div class="checkbox">
-            <input type="checkbox" name="personalData" id="personalData" />
-            <label for="personalData"
-              >Your personal data will be used to process your order, support
-              your experience throughout this website, and for other purposes
-              described in our privacy policy.</label
-            >
-          </div>
-          <a href="../Order/Received.html">Place Order</a>
         </div>
       </div>
     </div>
