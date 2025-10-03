@@ -56,3 +56,269 @@
   transform: scale(1.1, 1.1);
   cursor: pointer;
 }
+
+/* horizontal-line */
+
+.container .horizontal-line {
+  margin: 10px 0;
+  width: 366px;
+  height: 1px;
+  background-color: var(--border);
+}
+
+/* About-store-frame  */
+
+.about-store-frame {
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+.about-store-frame .container {
+  padding: 0 250px;
+  flex-direction: column;
+}
+
+.container h3 {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 100%;
+  text-align: left;
+}
+
+.container strong {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: left;
+}
+
+.container p {
+  margin-top: 20px;
+
+  color: rgba(4, 30, 66, 1);
+  text-indent: 40px;
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: justify;
+}
+
+.container .sub-text-box {
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sub-text-box .sub-text {
+  margin-right: 50px;
+}
+
+.container .achievment-wrapper {
+  margin-top: 35px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.achievment-wrapper .achievment-boxes {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.achievment-boxes .achievment-box {
+  width: 165px;
+  height: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.achievment-box b {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 100%;
+  text-align: center;
+}
+
+.achievment-box span {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+
+.container .leaders-wrapper {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.leaders-wrapper .leaders-boxes {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.leaders-boxes .leaders-box {
+  padding: 5px 3px;
+  position: relative;
+  width: 275px;
+  height: 420px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.leaders-box .leader-img-box {
+  width: 265px;
+  height: 330px;
+  border-radius: 8px;
+}
+
+.leader-img-box .hover-box {
+  display: none;
+  width: 265px;
+  height: 330px;
+
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 8px;
+  background: rgba(245, 195, 75, 1);
+  opacity: 0.7;
+
+  cursor: pointer;
+}
+
+.hover-box .social-contacts {
+  width: 106px;
+  height: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leader-img-box:hover .hover-box {
+  display: flex;
+}
+
+.leaders-box .leader-info {
+  margin-top: 5px;
+  width: 200px;
+  height: 53px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.leader-info.leader-name {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 100%;
+  text-align: left;
+}
+
+.leader-info .leader-position {
+  color: rgba(98, 105, 116, 1);
+
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+
+.container .service-wrapper {
+  margin-top: 40px;
+
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.service-wrapper .service-boxes {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-boxes .service-box {
+  width: 207px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-box img {
+  width: 40px;
+  height: 40px;
+}
+
+.service-box .service-info {
+  margin-top: 20px;
+  color: rgba(4, 30, 66, 1);
+
+  font-family: var(--font);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 100%;
+  text-align: center;
+}
+
+.service-box .service-details {
+  margin-top: 5px;
+  color: rgba(98, 105, 116, 1);
+
+  font-family: Jost;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
